@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RetornoDeActivitys">
         <activity
+            android:name=".TresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UmActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
